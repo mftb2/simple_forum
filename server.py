@@ -2,6 +2,11 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import urllib.parse
 import html
 
+
+# Run this in Powershell to run the server: cd simple_forum, python server.py
+
+# Run this in browser to operate site: http://127.0.0.1:8000/
+
 # Store users and posts in memory
 users = {}
 posts = []
